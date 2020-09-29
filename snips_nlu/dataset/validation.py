@@ -196,7 +196,7 @@ def _validate_and_format_custom_entity(entity, utterance_entities, language,
         }
     else:
         variations_args = {
-            "case": False,
+            "case": True,
             "and_": False,
             "punctuation": False
         }
